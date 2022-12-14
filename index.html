@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css?fbclid=IwAR2lp70qetaRzv-WZxzQK3KwKb23Ythgv_lcoS-C0GAIp6dhgVUEbcDRVh8">
-
+    
     <title>Document</title>
 </head>
 <body>
@@ -16,18 +16,76 @@
             <div class="content">
                 <div class="header">
                     <div class="close-btn">
-                        
+                        <i class="fa-solid fa-xmark-large"></i>
                     </div>
                 </div>
                 <div class="box-content">
                     <div class="intro">
-
+                        <div class="info"> 
+                            <p class="info-text"> My name is Man. I'm 22. I graduated from Can Tho University with the major in "Industrial Management". My concentration is Fullstack developer. I am hoping to work in an active environment in which I can learn from colleagues as well
+                            as adding my own skills to the overall team.</p>
+                        </div>
+                        <div class="avatar">
+                            <img src="./assets/img/Portrait.jpg" alt="" class="avatar-img">
+                        </div>
                     </div>
                     <div class="hobby">
+                        <p>My Thresh's skin</p>
+                        <div class="slide">
+                            <div class="slide-container js-slide-container">
+                                <img src="./assets/img/Thresh-5.webp" alt="" class="slide-img" id="lastClone">
+                                <img src="./assets/img/Thresh-2.webp" alt="" class="slide-img">
+                                <img src="./assets/img/Thresh-3.webp" alt="" class="slide-img">
+                                <img src="./assets/img/Thresh-4.webp" alt="" class="slide-img">
+                                <img src="./assets/img/Thresh-5.webp" alt="" class="slide-img">
+                                <img src="./assets/img/Thresh-2.webp" alt="" class="slide-img" id="firstClone">
 
+                                
+                            </div>
+                            <!-- <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2"  onclick="pullLeft()">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4"> -->
+                        </div>
+                        <div class="slide-btn">
+                            <i class="fa-thin fa-chevron-left left-btn js-left-btn"></i>
+                            <!-- <button class="js-right-btn"><i class="fa-thin fa-chevron-right right-btn"></i></button> -->
+                            <i class="fa-thin fa-chevron-right right-btn js-right-btn"></i>
+                        </div>    
                     </div>
-                    <div class="about">
+                    <div class="contact">
+                        <h2>CONTACT</h2>
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <div class="social-media">
+                                    <a href=""><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+                                    <a href=""><i class="fa-brands fa-instagram"></i>Instagram</a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+                                </div>
+                            </div>
+                            <div class="col l-6 m-6 c-12">
+                                <div class="send-mess contact-form">
+                                    <form action="">
+                                        <div class="row ">
+                                            <div class="col l-6 m-6 c-12">
+                                                <input type="text" placeholder="Name" required class="input-name form-control">
+                                        
+                                            </div>
+                                            <div class="col l-6 m-6 c-12">
+                                                
+                                                <input type="email" placeholder="Email" required class="input-email form-control">
+                                            </div>
 
+                                        </div>
+                                        <div class="mess-test l-12 m-12 c-12 mt-8 ">    
+                                            <input type="text" placeholder="Message" required class="input-message form-control">
+                                        </div>  
+                                            
+                                        <button type="submit" class="send-btn mt-16">SEND</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="media">
                         
@@ -36,5 +94,6 @@
             </div>
         </div>
     </div>
+    <script src="./indexLanding.js"></script>
 </body>
 </html>
