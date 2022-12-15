@@ -80,3 +80,6 @@ function carouselMeaning (){
         carouselSlide.style.transition = 'none';
         carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 }
+
+
+// Modal 
