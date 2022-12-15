@@ -83,3 +83,18 @@ function carouselMeaning (){
 
 
 // Modal 
+const modal = document.querySelector('.js-modal')
+const hideModalInfo = document.querySelector('.js-modal-close')
+const modalContainer = document.querySelector('.js-modal-container')
+
+hideModalInfo.addEventListener('click', closeModal)
+modal.addEventListener('click', closeModal)
+modalContainer.addEventListener('click', clickOutside)
+
+function closeModal () {
+    modal.classList.add('close')
+
+}
+function clickOutside(event) {
+    event.stopPropagation()
+}

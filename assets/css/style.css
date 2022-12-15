@@ -257,3 +257,9 @@ html {
 .modal-footer {
 
 }
+.open {
+}
+.close {
+    display: none
+
+}
