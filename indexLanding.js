@@ -89,12 +89,12 @@ const modalContainer = document.querySelector('.js-modal-container')
 
 hideModalInfo.addEventListener('click', closeModal)
 modal.addEventListener('click', closeModal)
-modalContainer.addEventListener('click', clickOutside)
+modalContainer.addEventListener('click', nonePropagation)
 
 function closeModal () {
     modal.classList.add('close')
 
 }
-function clickOutside(event) {
+function nonePropagation(event) {
     event.stopPropagation()
 }
